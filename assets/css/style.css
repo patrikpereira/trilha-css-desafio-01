@@ -1,0 +1,158 @@
+@import url('font.css');
+
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+.logo {
+    text-align: center;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-bottom: 1px solid #33A8DB;
+    margin: 20px 0;
+}
+
+.banner-content {
+    text-align: center;
+    padding-top: 56px;
+}
+
+.banner p {
+    margin-top: 16px;
+    font-size: 19px;
+    line-height: 23.48px;
+    width: 100%;
+}
+
+.banner h1 {
+    background-image: linear-gradient(rgba(51,168,219,1), rgba(20,114,183,1));
+    line-height: 46.96px;
+    color: transparent;
+    background-clip: clip;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner button {
+    background: transparent;
+    color: rgba(49, 168, 221, 1);
+    width: 326px;
+    height: 57px;
+    border: 2px solid;
+    margin-top: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner button:hover {
+    background-color:rgba(49, 168, 221, 1);
+    color: black;
+}
+
+
+#course-content {
+  text-align: center;
+}
+
+#course-content h2 {
+    color: rgba(51, 168, 219, 1);
+    text-transform: uppercase;
+    letter-spacing: 19%;
+    margin-top: 118px;
+}
+
+#course-content p {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 18.78px;
+    
+}
+
+.module {
+    border:1px solid #33A8DB;
+    width: 700px;
+    height: 51px;
+    border-radius: 57px;
+    padding: 16px 127px 16px 127px;
+    white-space: nowrap;
+    background-color: rgba(37, 37, 37, 1);
+    margin-left: 32%;
+    margin-top: 24px;
+    color: white;
+}
+
+
+.modules-list span {
+    color: #33A8DB;
+}
+
+#transform-world {
+    background-image: url(../images/woman-code.png);
+    width: auto;
+    height: 363px;
+    border-top: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+    margin-top: 90px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+
+#transform-world p {
+    text-transform: lowercase;
+    font-size: 40px;
+    width: 244px;
+    height: 141px;
+    font-weight: bold;
+    margin-left: 198px;
+    margin-top: 100px;
+    text-shadow: 3px 2px #33A8DB;
+}
+
+#professional-challenges h2 {
+    color: rgba(51, 168, 219, 1);
+    width: 746px;
+    height: 76px;
+    margin-top: 76px;
+    text-align: center;
+    font-size: 32px;
+    margin-left: 32%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#professional-challenges {
+    text-align: center;
+    border-bottom: 1px solid #33A8DB;
+}
+
+#professional-challenges p {
+    width: 792px;
+    height: 76px;
+    margin-left: 32%;
+    margin-bottom: 91px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 59px;
+    padding-bottom: 38px;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #33A8DB;
+}
